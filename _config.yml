@@ -11,6 +11,9 @@ description: Data Engineer
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars0.githubusercontent.com/u/44735669?s=460&u=f7ff97a32c3a8398f6bf5d23c5282132d4234fc5&v=4
 
+# theme
+theme: jekyll-theme-hacker
+
 #
 # Flags below are optional
 #
@@ -84,6 +87,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-
-# theme
-theme: jekyll-theme-hacker
