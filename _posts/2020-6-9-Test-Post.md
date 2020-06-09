@@ -5,7 +5,7 @@ title: This is a test
 
 This is a test post for this GitHub blog.
 
-```python
+{% highlight python linenos %}
 for _ in range(5):
     print('this is a test of code blocks with jekyll')
-```
+{% endhighlight %}
