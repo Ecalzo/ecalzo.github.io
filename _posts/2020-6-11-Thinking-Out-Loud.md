@@ -18,6 +18,11 @@ Ideas for things that we can explore:
     * Date partitioning (why and how?)
     * Creating idempotent processes (relates to Airflow)
     * Upcoming tools
+* Code Journeys
+    * Python for DE
+    * Learning new tools & paradigms
+    * Learning Scala
+    * Learning Kubernetes
 
 I find that one of the toughest things when learning some DE skillset is being able to use the technologies outside of a commerical subscription. Not everyone has their own Snowflake or AWS account. Some of these things can be done for free and I'll make sure that any tutorial is accessible in that way. 
 
