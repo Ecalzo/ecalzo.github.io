@@ -3,7 +3,7 @@ layout: post
 title: Let's Talk Airflow Setup
 ---
 
-Approaching Airflow can seem a little daunting. There are a few hundred Medium articles out there telling you how to set up Airflow, write a DAG, test a "Hello, World!" ETL. Usually the setup time before any development, experimentation, or learning can take some time and the articles are helpful, but just way too long.
+Approaching Airflow can seem a little daunting. There are a few hundred Medium articles out there telling you how to set up Airflow, write a DAG, test a "Hello, World!" ETL. Usually the there is a lot to set up before any development, experimentation, or learning can take place. While the articles are helpful, they are often just way too long.
 
 **Pre-built Docker images will save us time and let us start experimenting with Airflow quickly.**
 
