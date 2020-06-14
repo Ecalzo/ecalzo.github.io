@@ -12,10 +12,11 @@ Make sure you have Docker installed.
 
 If you want to develop dags in your local IDE, I recommend using the docker-compose file provided in the [Puckel](https://github.com/puckel/docker-airflow) repository. This will mount the `dags/` folder as a volume and allow you to edit dags on the fly and see your changes updated in the UI. This workflow is my preferred way to develop.  
 
-```
+{% highlight shell %}
  git clone https://github.com/puckel/docker-airflow.git && cd docker-airflow
  docker-compose -f docker-compose-LocalExecutor.yml up -d
-```
+{% endhighlight %}
+
 navigate to localhost:8080 in your web browser to check out the UI.
 
 You can shut down your instance from the same shell with `docker-compose down`
