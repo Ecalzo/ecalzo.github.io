@@ -21,6 +21,7 @@ def get_date_part(ds):
 def write_to_s3_bucket(ds):
     date_part = get_date_part(ds)
     file_path = os.path.join(date_part, 'my_file.csv')
+    # do something with boto3 ...
 
 
 write_to_bucket = PythonOperator(
