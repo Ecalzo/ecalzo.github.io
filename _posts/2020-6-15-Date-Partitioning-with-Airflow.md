@@ -28,7 +28,7 @@ write_to_bucket = PythonOperator(
     task_id='write_to_bucket',
     python_callable=write_to_s3_bucket,
     # the {{ ds }} macros corresponds to the dag's execution date
-    op_kwargs={'ds': '{{ ds }}'},
+    op_kwargs={'ds': '{{ "{{ ds " }}}}'},
     dag=dag
 )
 
