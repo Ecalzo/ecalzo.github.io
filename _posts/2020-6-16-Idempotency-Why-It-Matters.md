@@ -3,7 +3,6 @@ layout: post
 title: Idempotency - Why it matters
 ---
 
-## What?
 In DE, Idempotency is the idea that a single ETL job or process will produce the same end result regardless of how many times you re-run the job. That means that if you have a DAG that runs on 6/15/2020, then if you clear and run that DAG 1000x, your data warehouse will still hold the exact same data, no duplicates. **This concept is extremely important and will save you time in the long run**. 
 
 Combining this idea with Airflow can be fairly easy with some knowledge of your dataset, let's take a look:
