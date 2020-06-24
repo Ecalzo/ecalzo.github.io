@@ -5,6 +5,7 @@ title: Templated SQL with Jinja
 
 In data warehousing, we often encounter repetetive processes that can benefit from templating. This is a simple example of creating a `COPY INTO` statement using some JSON.
 
+{% highlight jinja %}
 {% raw %}
 COPY INTO {{ {{ table.target_name }}}}}
 SELECT 
@@ -13,6 +14,7 @@ SELECT
 {% endfor %}
 FROM '{{ {{ table.s3_stage }}}}'}
 {% endraw %}
+{% endhighlight %}
 
 {% highlight json %}
 // config.json
