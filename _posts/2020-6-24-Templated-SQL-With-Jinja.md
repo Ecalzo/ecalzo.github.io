@@ -53,5 +53,3 @@ print(rendered_sql)
 {% endhighlight %}
 
 Here's a repl to play with:
-
-{% include repls/jinja_repl.html %}
