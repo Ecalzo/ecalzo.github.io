@@ -7,12 +7,12 @@ In data warehousing, we often encounter repetetive processes that can benefit fr
 
 {% highlight jinja %}
 {% raw %}
-COPY INTO {{ {{ table.target_name }}}}}
+COPY INTO {{ table.target_name }} 
 SELECT 
 {% for col in table.columns %}
-    '{{ {{ col.name }}}}'} as '{{ {{ col.alias }}}}'} {% if not loop.last %},{% endif %}
+    {{ col.name }} as {{ col.alias }} {% if not loop.last %},{% endif %}
 {% endfor %}
-FROM '{{ {{ table.s3_stage }}}}'}
+FROM {{ table.s3_stage }}
 {% endraw %}
 {% endhighlight %}
 
