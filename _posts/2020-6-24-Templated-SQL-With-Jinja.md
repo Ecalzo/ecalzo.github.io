@@ -52,4 +52,7 @@ rendered_sql = template.render(json_config)
 print(rendered_sql)
 {% endhighlight %}
 
+
 Here's a repl to play with:
+
+{% include repls/jinja_repl.html %}
