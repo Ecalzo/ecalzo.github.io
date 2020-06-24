@@ -7,6 +7,7 @@ In data warehousing, we often encounter repetetive processes that can benefit fr
 
 {% highlight jinja %}
 {% raw %}
+{# jinja_template.j2 #}
 COPY INTO {{ table.target_name }} 
 SELECT 
 {% for col in table.columns %}
