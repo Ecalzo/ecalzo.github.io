@@ -35,9 +35,9 @@ FROM {{ table.s3_stage }}
                 "name": "ts",
                 "alias": "purchase_ts"
             }
-        ]
-    }
-        
+        ],
+        "s3_stage": "s3://import_bucket/purchase_date/"
+    }      
 }
 {% endhighlight %}
 
